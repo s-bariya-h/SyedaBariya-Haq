@@ -1,4 +1,4 @@
-<p align="center"><img src="images/Top.png" width="700px" height="400"/></p>
+<p id="top-logo" align="center"><img src="images/Top.png" width="700px" height="400"/></p>
 
 <h1 align="center">Software Quality Engineer (Home Challenge)</h1>
 
@@ -47,4 +47,5 @@ This repository is for the submission of the **Software Quality Engineer** test 
 ---
 
 <h2 align="center"> Where are you going? Go up and check the tasks 😜 </h2>
-<p align="center"><img src="https://media.giphy.com/media/3o6YgarLtqfN96sEOA/giphy.gif"/></p>
+<p align="center"><a href="#top-logo"><img src="https://media.giphy.com/media/3o6YgarLtqfN96sEOA/giphy.gif"></a></p>
+<p align="center">Click the gif to take you to the top</p>
