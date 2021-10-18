@@ -12,7 +12,9 @@
 
 ## Quick Start
 
-This repository is for the submission of the **Software Quality Engineer** test carried out by **N26**. All the three tasks assigned were completed in the given time.
+This repository is for the submission of the **Software Quality Engineer** test carried out by **N26**. **`Home-Challenge`** directory contains all the three tasks and within each task{No.} directory, you will find README files containing the proposed solution and/or instructions to reproduce the working of the tests. 
+
+<p align="center">:boom: All the three tasks assigned were completed in the given time. :boom:</p>
 
 > **Hack:** Click on any of the above Task Badges to go directly to the respective task. You will be see a README file just like this to help you find your way!
 > <br/>
