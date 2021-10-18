@@ -1,6 +1,7 @@
 <p id="top-logo" align="center"><img src="images/Top.png" width="700px" height="400"/></p>
 
 <h1 align="center">Software Quality Engineer (Home Challenge)</h1>
+<h3 align="center">Solution by Syeda Bariya Haq</h3>
 
 <div align="center">
   
