@@ -1,0 +1,19 @@
+version: "2.0"
+
+services:
+  api:
+    image: swaggerapi/petstore3:unstable
+    ports:
+      - "8080:8080"
+    container_name: swagger-petstore-api
+
+  cypress:
+    image: cypress/included:8.6.0
+    environment:
+      - CYPRESS_baseUrl=http://api:8080/api/v3/
+    volumes:
+      - ./:/e2e
+    working_dir: /e2e
+    container_name: cypress
+    depends_on:
+      - api
