@@ -42,7 +42,13 @@ As Software Quality Engineer you are given a task of testing a RESTful API. Use 
 ### 📋 Test Cases:
 
 - Overview
-  > The test cases are created for a pet store backend having API calls regarding the pet status in the store `POST`, `GET` and `DELETE` requests. We are only considering **True cases**. The requests for pet can be replicated for orders and users.
+  - The test cases are created for a pet store backend having API calls regarding the pet status in the store `POST`, `GET` and `DELETE` requests.
+  - We are only considering **True cases**. 
+  - The requests for pet can be replicated for orders and users.
+  - `Home-Challenge/Task3/cypress/config/config.js` file contains sample schemas to test.
+ <br/>
+ 
+Click each of the following Case IDs to expand
 
 <details>
   <summary>Case ID_01: GET Request</summary>
@@ -51,12 +57,13 @@ As Software Quality Engineer you are given a task of testing a RESTful API. Use 
 
 #### Work Flow
 
-1. GET Request - /pet/{petId} Get Pet by ID
+1. GET Request - `/pet/{petId}` Get Pet by ID
 
 ---
 
 #### Assessment
 
+- Send a `GET`request with `id = petExampleValue.id` from `config.js` file
 - Check if the headers' content type is `application/json`
 - Check if the status code returned is `200`
 - Check that status code should not return `404` or`400`
@@ -73,18 +80,18 @@ As Software Quality Engineer you are given a task of testing a RESTful API. Use 
 
 #### Work Flow
 
-1. POST - /pet Add a new pet to the store
-2. GET - /pet/{petId} Get Pet by ID
+1. POST - `/pet` Add a new pet to the store
+2. GET - `/pet/{petId}` Get Pet by ID
 
 ---
 
 #### Assessment
 
-- Send a POST request with the `myPetExample` object as body from the `config.js` file
+- Send a `POST` request with the `myPetExample` object as body from the `config.js` file
 - Check if the status code returned is `200`
 - Check that status code should not return `405`
 - Check if the body of the response matches the `myPetExample` object (keys matching)
-- Send a GET request with `id = myPetExample.id`
+- Send a `GET` request with `id = myPetExample.id`
 - Check if the status code returned is `200`
 - Check that status code should not return `404` or`400`
 - Check if the body of the response is JSON
@@ -108,7 +115,7 @@ As Software Quality Engineer you are given a task of testing a RESTful API. Use 
 
 #### Assessment
 
-- Since our `myPetExample` pet is still there as a result of the POST request in the last test, we will use that.
+🩹 Since our `myPetExample` pet is still there as a result of the POST request in the last test, we will use that.
 - Send a DELETE request by `id = myPetExample.id`
 - Check if the status code returned is `200`
 - Check that status code should not return `400`
